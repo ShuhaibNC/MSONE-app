@@ -22,6 +22,8 @@ Install requirements pip `install -r requirements.txt`
 
 Run msone_exp.py `py msone_exp.py`
 
+_[info] For those who don't whant to compile, Download exe from release and run_
+
 ## Author
 ShuhaibNC
 
