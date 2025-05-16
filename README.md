@@ -1,31 +1,40 @@
-# A Computer Software to Download Subtitles from MSONE
+# 🎬 MSONE Subtitle Search & Downloader
 
-## Compatibility
-- Windows
-- Linux
-- Mac OS
+A clean, functional, and fast **Windows GUI App** to search and download Malayalam subtitles from [malayalamsubtitles.org](https://malayalamsubtitles.org/).
 
-## Language
-- Python 3.11
+Built with 💙 using Python, `tkinter`, and `beautifulsoup4`.
 
-## Libraries used
-- tkinter
-- requests
-- bs4
+---
 
-## Installation
-Clone the repository `git clone https://github.com/ShuhaibNC/MSONE-app`
+## 🚀 Features
 
-Change directory `cd MSONE-app`
+- 🔍 Search subtitles by movie name
+- 🧠 Auto-sanitized file naming
+- 🌐 Fetches direct download links
+- 💾 Lets you choose save location
+- 🎨 Light/Dark mode toggle
+- 🧼 Removes duplicate results
+- 🪄 Intuitive UI with placeholder text
+- 🖱️ Double-click to download
 
-Install requirements pip `install -r requirements.txt`
+---
 
-Run msone_exp.py `py msone_exp.py`
+## 🧰 Libraries Used
 
-_[info] For those who don't whant to compile, Download exe from release and run_
+- `tkinter` – GUI engine
+- `requests` – HTTP client
+- `bs4` (BeautifulSoup) – HTML parser
+- `re` – Regex for filename sanitization
+- `threading` – For background search without freezing UI
 
-## Author
-ShuhaibNC
+---
 
-## Thanks to
-MSONE for this great service
+## 🛠️ Installation
+
+### 🔧 1. Install Dependencies
+
+Make sure Python is installed. Then install required libraries:
+
+```bash
+pip install requests beautifulsoup4
+```
